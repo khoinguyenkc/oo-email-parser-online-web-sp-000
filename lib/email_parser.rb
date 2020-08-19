@@ -22,4 +22,4 @@ end
 end
 
 stuff = EmailAddressParser.new("romeo@yahoo.com, rihanan@gmail.com chrisbrown@aol.com")
-result = stuff.parse
+puts result = stuff.parse
