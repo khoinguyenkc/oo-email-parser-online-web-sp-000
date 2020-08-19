@@ -10,7 +10,7 @@ def initialize(csvstring)
 end
 
 def parse
-  
+
   splittedarray = @csvstring.split(/[\s,]/) #regex: split by space or comma
   #splittedarray will contains pieces like ""
   splittedarray.delete("") #delete all items that match, return the deleted items
